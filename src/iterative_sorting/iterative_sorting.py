@@ -23,7 +23,7 @@ print(selection_sort([3, 1, 5, 6, 4, 7, 2]))
 def bubble_sort(arr):
     sorted = False
 
-    while not sorted:
+    while sorted == False:
         sorted = True
         for i in range(0, len(arr) - 1):
             if arr[i] > arr[i + 1]:
